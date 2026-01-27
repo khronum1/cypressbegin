@@ -140,8 +140,8 @@ Sinta-se à vontade para:
 
 ## 📬 Contato
 
-- **LinkedIn**: [Seu perfil](https://linkedin.com/in/patrickrlz)
-- **GitHub**: [@seu-usuario](https://github.com/khronum1)
+- **LinkedIn**: [Patrick Ribeiro](https://linkedin.com/in/patrickrlz)
+- **GitHub**: [@khronum1](https://github.com/khronum1)
 - **E-mail**: patrickrlz@outlook.com
 
 ---
