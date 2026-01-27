@@ -142,7 +142,6 @@ ENTÃO deve ser exibida a mensagem "Required" em ambos os campos
 
 - **Sistema Testado:** OrangeHRM
 - **Módulo:** Autenticação/Login
-- **Versão:** [Preencher versão]
 - **Responsável:** [Patrick Ribeiro]
 - **Data de Criação:** [12/10/25]
 
