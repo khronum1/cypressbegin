@@ -1,8 +1,8 @@
 # 🧪 Testes Manuais & Automatizados
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repositório-181717?style=flat&logo=github)](https://github.com/seu-usuario/testes-manuais-automatizados)
+[![GitHub](https://img.shields.io/badge/GitHub-Repositório-181717?style=flat&logo=github)](https://github.com/khronum1/cypressbegin)
 [![Cypress](https://img.shields.io/badge/Cypress-Automation-17202C?style=flat&logo=cypress)](https://www.cypress.io/)
-[![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)](https://github.com/seu-usuario/testes-manuais-automatizados)
+[![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)](https://github.com/khronum1/cypressbegin)
 
 Repositório dedicado ao estudo, prática e documentação de testes manuais de software e testes automatizados em **Cypress**, focado em:
 
