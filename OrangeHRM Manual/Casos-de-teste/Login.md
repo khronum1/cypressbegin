@@ -1,1 +1,63 @@
 
+🔐 Casos de Teste - Login OrangeHRM
+📋 Cenário 01: Login na Plataforma
+
+✅ Caso de Teste 01: Login com Credenciais Válidas
+CampoDescriçãoIDC01-CT01DescriçãoO login será realizado com um nome de usuário e uma senha válidos.Pré-condiçõesAs credenciais fornecidas (usuário e senha) devem ser válidas.PrioridadeAltaTipoFuncional - Positivo
+📝 Passos de Execução
+gherkinDADO que estamos na página de login do OrangeHRM
+E preenchemos "Admin" no campo usuário
+E preenchemos "admin123" no campo senha
+QUANDO clicarmos no botão "Login"
+ENTÃO seremos redirecionados para o Dashboard do sistema
+✔️ Critérios de Aceitação
+
+O redirecionamento para o Dashboard deve ocorrer corretamente
+Não deve haver mensagens de erro
+A sessão do usuário deve ser criada com sucesso
+
+📊 Resultado Esperado
+✅ Usuário autenticado e redirecionado para o Dashboard
+
+❌ Caso de Teste 02: Tentativa de Login com Senha Incorreta
+CampoDescriçãoIDC01-CT02DescriçãoO login falhará quando a senha for inválida.Pré-condiçõesO usuário "Admin" deve existir no sistema.PrioridadeAltaTipoFuncional - Negativo
+📝 Passos de Execução
+gherkinDADO que estamos na página de login do OrangeHRM
+E preenchemos "Admin" no campo usuário
+E preenchemos "senhaerrada" no campo senha
+QUANDO clicarmos no botão "Login"
+ENTÃO uma mensagem de erro "Invalid credentials" será exibida
+✔️ Critérios de Aceitação
+
+A mensagem de erro "Invalid credentials" deve ser exibida
+O usuário não deve ser autenticado
+O usuário deve permanecer na página de login
+
+📊 Resultado Esperado
+❌ Mensagem de erro exibida: "Invalid credentials"
+
+⚠️ Caso de Teste 03: Tentativa de Login com Campos em Branco
+CampoDescriçãoIDC01-CT03DescriçãoO login falhará quando os campos obrigatórios estiverem em branco.Pré-condiçõesNenhuma.PrioridadeMédiaTipoFuncional - Negativo
+📝 Passos de Execução
+gherkinDADO que estamos na página de login do OrangeHRM
+E deixamos os campos de usuário e senha em branco
+QUANDO clicarmos no botão "Login"
+ENTÃO deve ser exibida a mensagem "Required" em ambos os campos
+✔️ Critérios de Aceitação
+
+Os campos obrigatórios devem exibir mensagens de validação
+A mensagem "Required" deve aparecer abaixo de cada campo vazio
+O formulário não deve ser submetido
+
+📊 Resultado Esperado
+⚠️ Mensagens de validação exibidas: "Required" nos campos vazios
+
+📈 Resumo dos Testes
+IDTítuloTipoPrioridadeStatusC01-CT01Login com credenciais válidasPositivoAlta🔄 PendenteC01-CT02Login com senha incorretaNegativoAlta🔄 PendenteC01-CT03Login com campos em brancoNegativoMédia🔄 Pendente
+
+📝 Notas Adicionais
+
+Sistema Testado: OrangeHRM
+Módulo: Autenticação/Login
+Responsável: [Patrick Ribeiro]
+Data de Criação: [10/12/25]
