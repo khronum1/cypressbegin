@@ -42,7 +42,7 @@ A estrutura está organizada por pastas, cada uma representando um sistema/teste
 
 | Sistema | Status | Tipo de Teste | Documentação |
 |---------|--------|---------------|--------------|
-| **OrangeHRM** | ✅ Em andamento | Manual + Automatizado | [Ver casos de teste]([./OrangeHRM/](https://docs.google.com/spreadsheets/d/1X1Q1Xw4eE0TOh85tht0Pnl5kZgVO7sAf/edit?gid=838253256#gid=838253256)) |
+| **OrangeHRM** | ✅ Em andamento | Manual + Automatizado | [Ver casos de teste](https://docs.google.com/spreadsheets/d/1X1Q1Xw4eE0TOh85tht0Pnl5kZgVO7sAf/edit?gid=838253256#gid=838253256) |
 | _Próximos sistemas_ | 🔜 Em breve | - | - |
 
 ---
